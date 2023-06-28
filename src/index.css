@@ -1,0 +1,28 @@
+:root {
+  margin: 0;
+  padding: 0;
+  color-scheme:  light dark;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --bgcolor: rgb(58, 54, 74);
+  --secondary-color: rgb(45, 61, 59);
+  --tertiary-color: rgb(132, 96, 150);
+}
+
+body {
+  background-color: rgb(18, 18, 18);
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: transparent; 
+}
+
+button:hover {
+  cursor: pointer;
+}
